@@ -30,7 +30,7 @@ Once bugs are fixed, again execute the failing test cases to verify they pass.
 
 ## The Road Map
 
-![QA Engineer Road Map 2022](https://i.imgur.com/cM9cM8T.png)
+![QA Engineer Road Map 2022](https://ibb.co/T0QQFX1)
 
 ## created by
 
