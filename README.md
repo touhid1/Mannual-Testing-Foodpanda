@@ -28,7 +28,10 @@ Once bugs are fixed, again execute the failing test cases to verify they pass.
 - RTM
 - Recommandation
 
-<img src="../Food Panda.png" width="350" alt="OSS Capital">
+## The Road Map
+
+![QA Engineer Road Map 2022](https://i.imgur.com/cM9cM8T.png)
+
 ## created by
 
 - 2023 MD Touhedul islam 
