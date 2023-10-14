@@ -1,8 +1,8 @@
 # Foodpanda Mannual testing
 
-## Goal of Testing Uber
+## Goal of Testing Foodpanda
 
-The key concept testing Uber is to ensure that the application is error free and it is working in conformance to the specified functional requirements.
+The key concept testing Foodpanda is to ensure that the application is error free and it is working in conformance to the specified functional requirements.
 
 ## Perform Mannual Test
 
@@ -13,13 +13,14 @@ Once bugs are fixed, again execute the failing test cases to verify they pass.
 
 ## Table of Content
 
--Test Case ID
+
 
 - Scenario
 - Sub Scenario
 - Test Description
 - Precondition
 - Test Data
+- Test Case ID
 - Step Description
 - Expected Result
 - Actual Result
@@ -29,8 +30,8 @@ Once bugs are fixed, again execute the failing test cases to verify they pass.
 
 ## created by
 
-- 2021 Mahmudur Rahman
+- 2023 MD Touhedul islam 
 
 ## copyright and license
 
-- Copyright (c) 2021 Mahmudur Rahman
+- Copyright (c) 2023 MD Touhedul Islam
