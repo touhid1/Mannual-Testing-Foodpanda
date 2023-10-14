@@ -28,7 +28,7 @@ Once bugs are fixed, again execute the failing test cases to verify they pass.
 - RTM
 - Recommandation
 
-<img src="https://drive.google.com/file/d/1eRUQmxfDfMj5OpGdzRastFsV8Luequal/view?usp=drive_link" width="350" alt="OSS Capital">
+<img src="https://ibb.co/T0QQFX1" width="350" alt="OSS Capital">
 ## created by
 
 - 2023 MD Touhedul islam 
