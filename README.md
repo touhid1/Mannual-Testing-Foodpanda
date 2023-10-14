@@ -28,7 +28,7 @@ Once bugs are fixed, again execute the failing test cases to verify they pass.
 - RTM
 - Recommandation
 
-## The Road Map
+## The Mind Map
 
 ![QA Engineer Road Map 2022](https://i.imgur.com/E5XRn90.png)
 
