@@ -14,20 +14,19 @@ Once bugs are fixed, again execute the failing test cases to verify they pass.
 ## Table of Content
 
 
-
-- Scenario
-- Sub Scenario
-- Test Description
-- Precondition
+- Test Plan
+- Mind Map
+- Test Scenario
+- Test Case
 - Test Data
 - Test Case ID
-- Step Description
 - Expected Result
 - Actual Result
-- Status
-- Remarks
-- comments
-
+- Bug Report
+- Test Summary Report
+- Test Metrics
+- RTM
+- Recommandation
 ## created by
 
 - 2023 MD Touhedul islam 
