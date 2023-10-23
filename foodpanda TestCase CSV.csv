@@ -1,0 +1,582 @@
+Product Name,,Foodpanda,TC Start Date,11/10/2023,,TC Execution Start Date,, - -,,,,,TEST CASE,
+Module Name,,Corporate Account,TC End Date,,,TC Execution End Date,, - -,,,,,PASS,61
+Epic,,,Test Case Developed By,MD Touhedul Islam,,Browser (tested),,Yes,,,,,FAIL,19
+Developer Name (TL),,,Test Case Reviewed By,Ehsanul Alam Sabbir,,Performance (tested),,Yes,,,,,NO RUN,1
+Test Executed by,,,,,,,,,,,,,BLOCKED,0
+,,,,,,,,,,,,,TOTAL,81
+#SL,,Test ID,Module,Type of Testing,Sub Test ID,Test Cases,Exepected  Result,Actual Result,Test Data,"Reproducing
+Steps",Bugs Screen Shot ,Dev Comments,Final Status,Remarks
+1,,TC_0,"Browser 
+Compatibility Testing",,TC_0.1,Checking by running the URL site in different browsers.,Should be run in different browsers.,Found as per expectation.,"Browsers-Chrome, 
+Internet Explorer, Mozilla Firefox,
+Microsoft Edge,
+Opera Mini.","1. Go to different browsers.
+2. Search 'foodpanda' 3. Go to the website.",,,Passed,
+,,,,,,,,,,,,,,
+2,,TC_1,"
+Corporate Sign Up",UI Testing,TC_1.1,"Verify the alignment of displayed elements on the Sign up screen
+should be compatible in cross browsers testing.","Should be clicked on the ""Sign Up Now"" link.",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the SIGN UP NOW button in the header .
+3. Click the ""SIGN UP NOW"" link",,,Passed,
+3,,,,,TC_1.2,"Verify all login-related elements and fields are present on the login
+page.", Should be present the mandatory field .,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Get started in the left corner.
+3. Click the ""Get started"" link and check the spelling and grammatical mistakes.",,,Passed,
+4,,,,,TC_1.3,Verify the displayed element are in alignment from. ,Elements should be in aligment from. .,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the header.
+3. Click the ""Get started"" link and check * this sign.",,,Passed,
+5,,,,,TC_1.4,"Verify that the size, color, and UI of different elements should match
+the specifications.",Should be as per the client requirement,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get startde"" link and check * this sign.",,,Passed,
+,,,,,TC_1.5,"Verify Mandatory  field should have a red “*” mark if it’s required
+","Displayed The red ""*"" mark is prominently next to the required field.",Not Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Not Executed,
+6,,,,,TC_1.6,"Verify that the login page of the application is responsive and aligns
+properly on different screen resolutions and devices",A text should appear over the fields.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and check  Hover over every fields.",,,Passed,
+,,,,,,,,,,,,,,
+16,,TC_2,,,TC_2.1,Verify the Company Name field empty,Display an error message prompting the user to fill in the Company Name.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+17,,,,,TC_2.2,Verify the Company Name that the user cannot enter special characters in the name field.,Display an error message prompting the user to Please fill in Company Name in correct format.,Not Found as per expectation.,Webit*@%71,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Account button in the right corner.
+3. Click the ""Register"" link and check the  "" Confirm"" button.",,,Failed,
+,,,,,TC_2.3,Verify the Company Name that the user should not be able to enter numeric special characters in the name field.,Display an error message prompting the user to Please fill in Company Name in correct format.,Not Found as per expectation.,123456,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Failed,
+,,,,,TC_2.4,Verify the Company Name  minimum length of characters in the name field.,Display an error message prompting the user to Please fill in Company Name in correct format.,Not Found as per expectation.,T,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Failed,
+18,,,,,TC_2.5,Verify the Company name maximum length of characters in the name field.,Display an error message prompting the user to Please fill in Company Name in correct format.,Not Found as per expectation.,MD Touhedul Islam Sajib Cmpany LTD MD Touhedul Islam Sajib Cmpany LTDMD Touhedul Islam Sajib Cmpany LTD,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Failed,
+19,,,,,TC_2.6,Verify the company name user can remove text from the name field.,"Display an pre-existing text in the ""Name"" field should be successfully removed, and the field should be empty",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+22,,,,,TC_2.7,Verify the Company nameuser should be allowed to enter only alphabet characters in the name field.,Display an error message prompting the user to Please fill in Company Name in correct format.,Not Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Failed,
+,,,,,,,,,,,,,,
+,,TC_3,,,TC_3.1,Verify the Business registration number field empty,Display an error message prompting the user to fill in the Business registration number.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_3.2,Verify the Industry field empty,Display an error message prompting the user to fill in the Industry.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_3.3,Verify all values added in the dropdown list or not.,"Displayed For each expected value, the dropdown list should contain the value.",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_3.4,Check the spelling for the values in the dropdown list.,"The test is considered to have passed if all values in the dropdown list are spelled correctly. It is considered a failure if any value in the dropdown contains a spelling error or typo.
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_3.5,"Verify all the values in the Dropdown align or not.
+","All values in the dropdown align correctly, with no visual alignment issues such as misalignment, overlapping, or formatting problems.",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_3.6,Verify that the by default selected value is shown on the dropdown or not,"The retrieved value from the dropdown matches the expected default value.
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_3.7,Verify that the dropdown should not be editable.,"To ensure that the dropdown field is not editable, meaning users cannot manually enter values into the dropdown field.
+
+
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_3.8,"Verify that proper spacing is added on the dropdown values or not.
+","To ensure that proper spacing is added to the dropdown values in the web application.
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_3.9,"Verify mouse hover effect is added for the dropdown list or not.
+","When the mouse pointer hovers over the dropdown list element, a visual change or effect should occur. This can include changes in color, highlighting, or the dropdown list expanding to show options.
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,,,,,,,,,,
+,,TC_4,,,TC_4.1,Verify the Business registration number field empty,Display an error message prompting the user to fill in the Business registration number.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_4.2,Verify the No.of employees field empty,Display an error message prompting the user to fill in the Industry,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+23,,,,,TC_4.3,Verify all values added in the dropdown list or not.,"Displayed For each expected value, the dropdown list should contain the value.",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+24,,,,,TC_4.4,Check the spelling for the values in the dropdown list.,All values in the dropdown list have correct spelling as per the expected spelling.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+25,,,,,TC_4.5,"Verify all the values in the Dropdown align or not.
+","All values in the dropdown should be aligned correctly, both horizontally and vertically.",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+26,,,,,TC_4.6,Verify that the by default selected value is shown on the dropdown or not,The retrieved value from the dropdown should match the expected default value.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+27,,,,,TC_4.7,Verify that the dropdown should not be editable.,"To ensure that the dropdown field is not editable, meaning users cannot manually enter values into the dropdown field.
+
+
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+28,,,,,TC_4.8,"Verify that proper spacing is added on the dropdown values or not.
+","To ensure that proper spacing is added to the dropdown values in the web application.
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+29,,,,,TC_4.9,"Verify mouse hover effect is added for the dropdown list or not.
+","When the mouse pointer hovers over the dropdown list element, a visual change or effect should occur. This can include changes in color, highlighting, or the dropdown list expanding to show options.
+",Found as per expectation.,AAcccEEE,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,,,,,,,,,,
+,,TC_5,,,TC_5.1,Verify the Street name field empty,Display an error message prompting the user to fill in the Street Name.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+30,,,,,,"Verify the Street name user should be able to enter alphabetic characters in the address field or not
+",address field should allow the user to enter alphabetic characters without any error messages or restrictions.,Found as per expectation.,AAcccEEE & BBcceE,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+31,,,,,TC_5.2,"Verify the street name user should be able to enter numeric characters in the address field or not
+",The address field should allow users to enter numeric characters without any validation errors or restrictions.,Found as per expectation.,"#126 road no-1212 , Dhaka, Bangladesh","1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+32,,,,,TC_5.3,"Verify the  street name user should be able to enter special characters in the address field or not
+",The system should allow the user to enter special characters in the street address field without any errors or restrictions.,Found as per expectation.,"#126 road no-1212 , Dhaka, Bangladesh","1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+33,,,,,TC_5.4,"Verify the  street name maximum length of the address field
+", The street name provided is too long. Please enter a street name with a maximum of 255 characters.,Not Found as per expectation.,"""Alexander Bartholomew Theodore Montgomery Kensington III Esquire, Sir Reginald Fitzwilliam III, Countess Isabella Genevieve Kensington-Montgomery of Yorkshire, Duke of Stratford-Upon-Avon, Lady Penelope Anastasia Kensington-Montgomery of Devonshire"" (300 characters)","1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Failed,
+34,,,,,TC_5.5,"Verify the  street name minimum length of the address field
+",The address field should accept street names with a minimum length of 5 characters.,Not Found as per expectation,RD,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Failed,
+35,,,,,TC_5.6,"Verify the  street name user is able to enter a combination of alphanumeric characters into the address field or not
+","The street name field should accept the input ""#126 road no-1212 , Dhaka, Bangladesh"" without any errors or validation messages. The system should allow the user to enter a combination of alphanumeric characters in the address field.",Found as per expectation,"#126 road no-1212 , Dhaka, Bangladesh","1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+37,,,,,TC_5.7,"Verify that if the user presses a space bar and try to save a blank field then it should be displayed a validation message
+","A validation message should be displayed near or below the input field, informing the user that the field cannot be left blank and that they should enter valid information.",Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,,,,,,,,,,
+,,TC_6,,,TC_6.1,Verify the Postal code field empty,Display an error message prompting the user to fill in the Postal code.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_6.2,"Verify that the postal code field should be clickable
+",The postal code field should be clickable without any errors or exceptions.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+39,,,,,TC_6.3,"Verify that the user should not be able to enter alphabet characters in the zip code field.
+",The expected result is that the zip code input field should not allow the user to enter alphabet characters.,Not Found as per expectation,ABCD,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",accept alphabet error,,Failed,
+40,,,,,TC_6.4,"Verify that the user should not be able to enter special characters in the zip code field.
+",The expected result is that the zip code input field should not allow the user to enter special characters.,Not Found as  per expectation.,$%$#@,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",special characters error,,Failed,
+41,,,,,TC_6.5,"Verify that the user should not be able to enter numeric special characters in the zip code field.
+",The expected result is that the zip code input field should not allow the user to enter numeric special characters.,Not Found as per expectation,86$00,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",allow the user to enter numeric special characters,,Failed,
+43,,,,,TC_6.6,"Verify that the user should not be able to allow space in the zip code field.
+",The system should prevent the user from entering spaces in the zip code field.,Not Found as per expectation,86 00,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",allow space,,Failed,
+44,,,,,TC_6.7,"Verify that the user should not be able to paste alpha or special characters in the zip code field.
+","The expected result is that the zip code field should not accept alpha or special characters when pasting. The input should either be rejected, or the alpha/special characters should be automatically removed.",Not Found as per expectation,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Failed,
+45,,,,,TC_6.8,"Verify that the user should be able to enter only number in the postal code field.
+","The input ""XYZ@456"" should be rejected as it contains a special character ""XYZ@"" which is not Number.",Not Found as per expectation,XYZ@456  ,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",able to enter alphanumeric characters,,Failed,
+46,,,,,TC_6.9,"Verify that the maximum length for the postal code field
+",The postal code field should accept a maximum of 10 number,Not Found as per expectation,123456789012,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",should accept a maximum ,,Failed,
+47,,,,,TC_6.10,"Verify that the minimum length for the postal code field
+",The postal code field should accept a minimum of 4 number.,Not Found as per expectation,1,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",minimum length error,,Failed,
+,,,,,,,,,,,,,,
+,,TC_7,,,TC_7.1,Verify the city field empty,Display an error message prompting the user to fill in the city.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+49,,,,,TC_7.2,Verify all values added in the dropdown list or not.,"Displayed For each expected value, the dropdown list should contain the value.",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Account button in the right corner.
+3. Click the ""Register"" link and put data in the mentioned field.  4. Go to Continue.      5. give otp and password.",,,Passed,
+50,,,,,TC_7.3,Check the spelling for the values in the dropdown list.,All values in the dropdown list have correct spelling as per the expected spelling.,Found as per expectation,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+51,,,,,TC_7.4,"Verify all the values in the Dropdown align or not.
+","All values in the dropdown should be aligned correctly, both horizontally and vertically.",Found as per expectation,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+52,,,,,TC_7.5,Verify that the by default selected value is shown on the dropdown or not,The retrieved value from the dropdown should match the expected default value.,Found as per expectation,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+53,,,,,TC_7.6,Verify that the dropdown should not be editable.,"To ensure that the dropdown field is not editable, meaning users cannot manually enter values into the dropdown field.
+
+
+",Found as per expectation,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+54,,,,,TC_7.7,"Verify that proper spacing is added on the dropdown values or not.
+","To ensure that proper spacing is added to the dropdown values in the web application.
+",Found as per expectation,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+55,,,,,TC_7.8,"Verify mouse hover effect is added for the dropdown list or not.
+","When the mouse pointer hovers over the dropdown list element, a visual change or effect should occur. This can include changes in color, highlighting, or the dropdown list expanding to show options.
+",Found as per expectation,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,,,,,,,,,,
+,,TC_8,,,TC_8.1,Verify the First Name field empty,Display an error message prompting the user to fill in the First Name.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_8.2,"Verify the First name placeholder text should be shown properly or not for the name field.
+","The ""First Name"" placeholder text should be shown properly within the name field.
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+56,,,,,TC_8.3,"Verify the First Name when the user clicks on the name field, the text cursor should be visible in the name field.
+","After clicking on the ""First Name"" input field, the text cursor (caret) should become visible within the field.",Found as per expectation,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+57,,,,,TC_8.4,"Verify that the user is able to click on the name field or not
+","The user should be able to click on the name field.",Found as per expectation,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+58,,,,,TC_8.5,"Verify the First Name user should be allowed to enter only alphabet characters in the name field.
+", Ensure that the First Name field only accepts alphabet characters.,Not Found as per expectation,Touhedul@66,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",https://tinyurl.com/2x8q4yg3,,Failed,
+59,,,,,TC_8.6,"Verify First Name the user is able to remove text from the name field
+","The user can successfully remove text from the ""First Name"" field, and the removed text disappears as expected.",Found as per expectation,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+60,,,,,TC_8.7,"Verify the First Name maximum length of characters in the name field.
+",The first name field should store and display the entered 50 characters.,Not Found as per expectation,"""JohnDoe1234567890abcdefghijklmnopqrstuvwxyz""","1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",https://tinyurl.com/ymllfy47,,Failed,
+61,,,,,TC_8.8,"Verify the First Name minimum length of characters in the name field.
+","The application should accept the input and allow you to proceed without displaying any error messages related to the ""First Name"" field.",Found as per expectation,A,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+63,,,,,TC_8.9,"Verify First Name the user should not be able to enter numeric characters in the name field.
+",The First Name field should not allow the entry of numeric characters. ,Not Found as per expectation,86860709,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",https://tinyurl.com/yvp2rt9x,,Failed,
+64,,,,,TC_8.10,"Verify First Name the user should not be able to enter special characters in the name field.
+",The First Name field should not allow the entry of special characters. ,Not Found as per expectation,To@he$dul,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",https://tinyurl.com/yt9hchep,,Failed,
+,,,,,TC_8.11,"Verify First Name the user should not be able to enter numeric special characters in the name field.
+",The First Name field should not allow the entry of numeric special characters. ,Found as per expectation,Md-Touhedul_islam,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+65,,,,,,,,,,,,,,
+,,TC_9,,,TC_9.1,Verify the Last Name field empty,Display an error message prompting the user to fill in the Last Name.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+67,,,,,TC_9.2,"Verify Last Name placeholder text should be shown properly or not for the name field.
+","The ""First Name"" placeholder text should be shown properly within the name field.
+",Found as per expectation,Enter tab in every field,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+68,,,,,TC_9.3,"Verify Last Name when the user clicks on the name field, the text cursor should be visible in the name field.
+","After clicking on the ""First Name"" input field, the text cursor (caret) should become visible within the field.",Found as per expectation,input Enter in every field,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+69,,,,,TC_9.4,"Verify Last Name the user is able to click on the name field or not
+","The user should be able to click on the name field.",Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+70,,,,,TC_9.5,"Verify Last Name the user should be allowed to enter only alphabet characters in the name field.
+", Ensure that the First Name field only accepts alphabet characters.,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+71,,,,,TC_9.6,"Verify Last Name the user is able to remove text from the name field
+",The first name field should store and display the entered 50 characters.,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+72,,,,,TC_9.7,"Verify the maximum length of characters in the Last Name field.
+",The first name field should store and display the entered 50 characters.,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_9.8,"Verify the minimum length of characters in the Last Name field.
+","The application should accept the input and allow you to proceed without displaying any error messages related to the ""First Name"" field.",Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_9.9,"Verify Last Name the user should not be able to enter numeric characters in the name field.
+",The First Name field should not allow the entry of numeric characters. ,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_9.10,"Verify Last Name the user should not be able to enter special characters in the name field.
+",The First Name field should not allow the entry of special characters. ,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_9.11,"Verify Last Name the user should not be able to enter numeric special characters in the name field.
+",The First Name field should not allow the entry of numeric special characters. ,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_9.12,"Verify Last Name the user should not be able to allow space in the name field.
+",The First Name field should not allow the entry of space. ,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_9.13,"Verify Last Name it should display a validation error message for the required field.
+","The error message should indicate that the ""First Name"" field is required.",Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,,,,,,,,,,
+,,TC_10,,,TC_10.1,Verify the Corporate Email field empty,Display an error message prompting the user to fill in the Email.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_10.2,"Verify that Corporate  email fields are as per requirements or not
+",ensure that the corporate email fields adhere to the specified requirements.,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.3,"Verify Corporate  email placeholder text is as per expected or not
+",The email address [user@company.com] is expected to match the typical format of a corporate emai,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.4,"Verify Corporate  email the user is able to click on the email field or not
+","The ""Email"" field is clickable, allowing the user to click on it.",Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.5,"Verify if user enters invalid Corporate  email id then validation message should be displayed.
+","The system should detect that the entered email address ""invalid.email@example.com"" is not a valid corporate email address.",Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.6,"Verify email address field with invalid email [ abc-@test.com ]
+",Invalid email address error message,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.7,"Verify email address field with invalid email [ abc..p@test.com ]",Invalid email address error message,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.8,"Verify email address field with invalid email [ .abc@test.com ]
+",Invalid email address error message,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.9,"Verify email address field with invalid email [ abc#123@test.com ]",Invalid email address error message,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.10,"Verify email address field with invalid email [ abc@@test.com ]",Invalid email address error message,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.11,Verify email field with valid email [ abc-s@test.com ],"The system should accept the email address ""[user@company.com]"" without any errors or validation issues.",Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,,,,,,,,,,
+,,,,,TC_10.12,Verify the Phone Number field empty,Display an error message prompting the user to fill in the Phone Number.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_10.13,Verify the Wroing Country code selected,Display an error message prompting the user to fill in the Country Code.,Not Found as per expectation.,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_10.14,"Verify the field with letters instead of Phone  numbers.
+",The system should display an error message indicating that the input is invalid because it contains letters and does not resemble a valid phone number.,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.15,"Verify the field with special characters instead of Phone  numbers.
+",The system should display an error message indicating that the input is invalid because it contains special characters and does not resemble a valid phone number.,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.16,"Verify the field with alpha and special characters
+",The system should display an error message indicating that the input is invalid because it contains alpha and special characters and does not resemble a valid phone number.,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.17,"Verify the field with numbers exceeding the maximum length allowed.
+","The system should validate the input and check that the ""Phone Number"" field does not exceed the maximum allowed length of 11 characters.",Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.18,"Verify the field with numbers that are too short.","The system should validate the input and check that the ""Phone Number"" field does not exceed the minimum allowed length of 10 characters.",Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.19,"Verify the field with an incorrect format (e.g. 1231231234).
+",Displayed Invalid phone number format,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.20,"Verify the field with spaces and/or dashes in incorrect positions.
+",Displayed Invalid phone number format,Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.21,"Verify Phone number placeholder should be displayed as per the specification.
+"," The input field should contain a placeholder text that says ""Phone .""",Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_10.22,"Verify the field with the correct input type (e.g. numbers only).
+","The input field should accept ""0123456789"" without any errors or validation messages. It should be considered a valid input as it contains only numbers.",Found as per expectation,,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,,,,,,,,,,
+,,TC_12,,,TC_12.1,Verify the Reason for choosing us field empty,Display an error message prompting the user to fill in the Reason for choosing us.,Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up ",,,Passed,
+,,,,,TC_12.2,Verify all values added in the dropdown list or not.,"Displayed For each expected value, the dropdown list should contain the value.",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_12.3,Check the spelling for the values in the dropdown list.,"The test is considered to have passed if all values in the dropdown list are spelled correctly. It is considered a failure if any value in the dropdown contains a spelling error or typo.
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_12.4,"Verify all the values in the Dropdown align or not.
+","All values in the dropdown align correctly, with no visual alignment issues such as misalignment, overlapping, or formatting problems.",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_12.5,Verify that the by default selected value is shown on the dropdown or not,"The retrieved value from the dropdown matches the expected default value.
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_12.6,Verify that the dropdown should not be editable.,"To ensure that the dropdown field is not editable, meaning users cannot manually enter values into the dropdown field.
+
+
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_12.7,"Verify that proper spacing is added on the dropdown values or not.
+","To ensure that proper spacing is added to the dropdown values in the web application.
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,TC_12.8,"Verify mouse hover effect is added for the dropdown list or not.
+","When the mouse pointer hovers over the dropdown list element, a visual change or effect should occur. This can include changes in color, highlighting, or the dropdown list expanding to show options.
+",Found as per expectation.,None,"1. Go to the URL
+https://www.foodpanda.com.bd//
+2. Click on the Sign up now button in the Header.
+3. Click the ""Get started"" link and Go to https://www.foodpanda.com.bd/corporate/sign-up",,,Passed,
+,,,,,,,,,,,,,,
+,,TC_13,Corporate Login,Functional ,TC_13.1,Verify if a user will be able to login with a valid username and valid password.	,The user should be able to successfully log in when they enter a valid username and a valid password.,Found as per expectation,,,,,Passed,
+,,,,,TC_13.2,Verify if a user cannot login with a valid username and an invalid password.	,The system should prevent the user from logging in when they enter a valid username but an invalid password. An error message should be displayed indicating that the password is incorrect.,Found as per expectation,,,,,Passed,
+,,,,,TC_13.3,"Verify the login page for both, when the field is blank and Submit button is clicked.	","When the user attempts to submit the login form with one or both fields blank, the system should display an error message prompting the user to fill in all required fields.",Found as per expectation,,,,,Passed,
+,,,,,TC_13.4,Verify the ‘Forgot Password’ functionality.	,"When a user clicks on the ""Forgot Password"" link, they should be redirected to a page or dialog where they can reset their password by providing their email address or other required information.",Found as per expectation,,,,,Passed,
+,,,,,TC_13.5,Verify the messages for invalid login.	,"When a user enters invalid login credentials the system should display clear and informative error messages indicating the reason for the login failure (e.g., ""Invalid username"" or ""Incorrect password"").",Found as per expectation,,,,,Passed,
+,,,,,TC_13.6,Verify the ‘Remember Me’ functionality.        ,,Found as per expectation,,,,,Passed,
+,,,,,TC_13.7,Verify if the data in password field is either visible as asterisk or bullet signs.	,"The system should allow users to log in simultaneously with different credentials in different browser sessions or tabs, maintaining separate login sessions for each set of credentials.",Found as per expectation,,,,,Passed,
+,,,,,TC_13.8,Verify if the login page allows to log in simultaneously with different credentials in a different browser.	,"The system should allow users to log in simultaneously with different credentials in different browser sessions or tabs, maintaining separate login sessions for each set of credentials.",Found as per expectation,,,,,Passed,
+,,,,,TC_13.9,Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.	," Pressing the ""Enter"" key on the keyboard while the cursor is in a login field should trigger the login action, simulating a click on the login button.",Found as per expectation,,,,,Passed,
+,,,,,TC_13.10,"Verify if the font, text color, and color coding of the Login page is as per the standard.	","The login page should adhere to the established design standards, including the correct font, text color, and color coding, to ensure a consistent and visually appealing user experience.",Found as per expectation,,,,,Passed,
+,,,,,,,,,,,,,,
+,,TC_14,,Non-functional ,TC_14.1,Verify if a user cannot enter the characters more than the specified range in each field (Username and Password).	,The system should restrict input to the defined character limits for these fields.,Found as per expectation,,,,,Passed,
+,,,,,TC_14.2,Verify the login page by pressing ‘Back button’ of the browser. It should not allow you to enter into the system once you log out.	,"The system should not allow a user to access the system again after logging out, even if they use the browser's back button.",Found as per expectation,,,,,Passed,
+,,,,,TC_14.3,Verify if a user should not be allowed to log in with different credentials from the same browser at the same time.	,The system should restrict multiple concurrent logins from the same browser for the same user.,Found as per expectation,,,,,Passed,
+,,,,,TC_14.4,Verify the implementation of SSL certificate.	,The system should establish secure and encrypted connections using the SSL certificate,Found as per expectation,,,,,Passed,
